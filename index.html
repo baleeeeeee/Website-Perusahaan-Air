@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Spring - Air Minum Berkualitas</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">
+        <img src="img/logo.png" alt="Blue Spring Logo" class="logo-img">
+        <span class="logo-text">Blue Spring</span>
+    </div>
+
+    <ul>
+        <li><a href="#about" class="lang" data-lang="id">Tentang</a></li>
+        <li><a href="#about" class="lang" data-lang="en" style="display:none;">About</a></li>
+
+        <li><a href="#products" class="lang" data-lang="id">Produk</a></li>
+        <li><a href="#products" class="lang" data-lang="en" style="display:none;">Products</a></li>
+
+        <li><a href="#contact" class="lang" data-lang="id">Kontak</a></li>
+        <li><a href="#contact" class="lang" data-lang="en" style="display:none;">Contact</a></li>
+    </ul>
+
+    <div class="language-switcher">
+        <button onclick="setLanguage('id')">ID</button>
+        <button onclick="setLanguage('en')">EN</button>
+    </div>
+</nav>
+
+<!-- Header Hero -->
+<header class="hero">
+    <div class="overlay">
+      
+    </div>
+</header>
+
+<!-- Tentang Perusahaan -->
+<section id="about" class="about">
+    <h2 class="lang" data-lang="id"><span class="highlight">Tentang Kami</span></h2>
+    <h2 class="lang" data-lang="en" style="display:none;"><span class="highlight">About Us</span></h2>
+
+    <p class="lang" data-lang="id">
+        <span class="highlight">Blue Spring</span> adalah perusahaan air minum dalam kemasan yang berkomitmen menghadirkan air pegunungan alami dengan proses filtrasi modern, menjamin kesegaran dan kemurnian setiap tetesnya.
+    </p>
+    <p class="lang" data-lang="en" style="display:none;">
+        <span class="highlight">Blue Spring</span> is a bottled water company committed to delivering natural mountain water through modern filtration processes, ensuring freshness and purity in every drop.
+    </p>
+
+    <div class="visi-misi">
+        <div class="item">
+            <h3 class="lang" data-lang="id">Air Minum Berkualitas</h3>
+            <h3 class="lang" data-lang="en" style="display:none;">Quality Drinking Water</h3>
+            <p class="lang" data-lang="id">Blue Spring berkomitmen menyediakan air minum berkualitas tinggi untuk memenuhi kebutuhan hidrasi masyarakat Indonesia.</p>
+            <p class="lang" data-lang="en" style="display:none;">Blue Spring is committed to providing high-quality drinking water to meet Indonesia's hydration needs.</p>
+        </div>
+        <div class="item">
+            <h3 class="lang" data-lang="id">Kelestarian Lingkungan</h3>
+            <h3 class="lang" data-lang="en" style="display:none;">Environmental Sustainability</h3>
+            <p class="lang" data-lang="id">Blue Spring menjalankan operasional berkelanjutan untuk menjaga sumber daya air dan lingkungan.</p>
+            <p class="lang" data-lang="en" style="display:none;">Blue Spring operates sustainably to preserve water resources and the environment.</p>
+        </div>
+        <div class="item">
+            <h3 class="lang" data-lang="id">Kesejahteraan Masyarakat</h3>
+            <h3 class="lang" data-lang="en" style="display:none;">Community Welfare</h3>
+            <p class="lang" data-lang="id">Blue Spring berkontribusi meningkatkan kesejahteraan masyarakat sekitar wilayah operasional.</p>
+            <p class="lang" data-lang="en" style="display:none;">Blue Spring contributes to improving the welfare of communities around its operational areas.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Produk -->
+<section id="products" class="products">
+    <h2 class="lang" data-lang="id">Produk Kami</h2>
+    <h2 class="lang" data-lang="en" style="display:none;">Our Products</h2>
+
+    <div class="product-list">
+        <div class="product">
+            <img src="img/15000.png" alt="Blue Spring 1500ml">
+            <h3>Blue Spring 1500ml</h3>
+            <p class="lang" data-lang="id">Kemasan besar, cocok untuk kebutuhan keluarga, acara, dan perjalanan jauh.</p>
+            <p class="lang" data-lang="en" style="display:none;">Large size, ideal for families, events, and long trips.</p>
+        </div>
+        <div class="product">
+            <img src="img/100ml.png" alt="Blue Spring 600ml">
+            <h3>Blue Spring 600ml</h3>
+            <p class="lang" data-lang="id">Praktis dibawa ke mana saja, menjaga tubuh tetap terhidrasi setiap saat.</p>
+            <p class="lang" data-lang="en" style="display:none;">Convenient to carry anywhere, keeping you hydrated anytime.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Kontak -->
+<section id="contact" class="contact">
+    <h2 class="lang" data-lang="id">Hubungi Kami</h2>
+    <h2 class="lang" data-lang="en" style="display:none;">Contact Us</h2>
+
+    <p class="lang" data-lang="id">Untuk informasi lebih lanjut atau kerja sama, silakan hubungi kami:</p>
+    <p class="lang" data-lang="en" style="display:none;">For more information or collaboration, please contact us:</p>
+
+    <ul>
+        <li>Email: info@bluespring.co.id</li>
+        <li>Telepon: +62 812-3456-7890</li>
+        <li class="lang" data-lang="id">Alamat: Jl. Viktor No. 88, Pamulang, Indonesia</li>
+        <li class="lang" data-lang="en" style="display:none;">Address: Jl. Viktor No. 88, Pamulang, Indonesia</li>
+    </ul>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>&copy; 2025 Muhamad Iqbal Al Ghifari Rusianto. All rights reserved.</p>
+</footer>
+
+<!-- Script -->
+<script>
+    window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.navbar');
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+
+    function setLanguage(lang) {
+        document.querySelectorAll('.lang').forEach(el => {
+            el.style.display = (el.getAttribute('data-lang') === lang) ? '' : 'none';
+        });
+    }
+</script>
+
+</body>
+</html>
